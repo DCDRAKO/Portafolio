@@ -1,0 +1,16 @@
+.projects__title{
+    position: absolute;
+    bottom: 0;
+    transform: rotatez(-90deg);
+    width: 450px;
+    height: 80px;
+    background-color: #5ea71b;
+    z-index: 80;
+    /* font-size: 2.5em;
+    color: #D1F8FF;
+    font-family: 'Mechsuit';
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00E0FF;
+    position: absolute; */
+    
+}
