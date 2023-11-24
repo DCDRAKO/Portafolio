@@ -421,7 +421,7 @@ body::-webkit-scrollbar-thumb{
     position: absolute;
     top: 9.5%;
     z-index: 40;
-    background-color: #5ea71b;
+    /* background-color: #5ea71b; */
 }
 
 .projects-encabezado--1{
@@ -494,7 +494,19 @@ body::-webkit-scrollbar-thumb{
     background: rgba(209, 248, 255, 1);
 }
 
+.lista__item img{
+    position: absolute;
+    visibility: hidden;
+    
+}
+.lista__item iframe{
+    position: absolute;
+    visibility: hidden;
+}
+
 .lista__item{
+    position: relative;
+    z-index: 70;
     background-image:url(SVGs/Diseño\ 2\ Portafolio.svg);
     width: 550px;
     min-height: 57px;
@@ -516,4 +528,29 @@ body::-webkit-scrollbar-thumb{
     position: absolute;
     top: 8.5%;
     right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .muestra__imagen{
+    position: absolute;
+    z-index: 100;
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    background-size: cover;
+} */
+
+.muestra__imagen{
+    position: absolute;
+    max-height: 800px;
+    max-width: 580px;
+    background-color: antiquewhite;
+}
+
+.muestra__iframe{
+    height: 600px;
+    width: 800px;
 }
