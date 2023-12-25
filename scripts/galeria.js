@@ -20,8 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     muestra.src = mediaUrl;
                     muestraIframe.src = "";
                 } else if (mediaElement.tagName === 'IFRAME') {
-                    muestraIframe.src = mediaUrl;
-                   
+                    muestraIframe.src = mediaUrl;         
                     muestra.src="";
                 }
             }
